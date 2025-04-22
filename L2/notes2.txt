@@ -1,0 +1,20 @@
+1. Comments in JS : 
+  --> //single line Comment
+  --> /* multi-line 
+       comment*/
+
+
+2. Operators in JS :
+ --> Arithmetic Operators :
+     + , - , * , /
+     ->Modulus
+     ->Exponentiation 
+     ->Increment
+     ->Decrement
+
+ --> Assignment Operators :
+
+ +
+ --> Comparison Operator :
+
+ --> Logical Operators :
