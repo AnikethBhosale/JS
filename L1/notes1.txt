@@ -1,4 +1,4 @@
-1. console.log('some txt') --> in used to log(print) a msg to the console
+1. console.log('some txt') --> is used to log(print) a msg to the console
 
 2. ;  --> full stop of lone of code
 

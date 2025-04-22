@@ -13,8 +13,82 @@
      ->Decrement
 
  --> Assignment Operators :
+      =
+      +=
+      -=
+      *=
+      %=
+      **=
 
- +
  --> Comparison Operator :
+     ==  (Equal to)
+     === (Equal to & type)
+     !=  (Not equal to)
+     !== (Not equal to & type)
 
  --> Logical Operators :
+     Logical AND --> &&
+     Logical OR  --> ||
+     Logical NOT --> !
+
+ --> Ternary Operators (special operator --> works on 3 operands):
+    -> condition ? true output : false output
+
+
+3. Conditional Statements:
+  --> if statement 
+      let color ;
+      if (mode==='dark-mode' ) {
+        color = 'black';      
+        }
+
+  --> if-else statement 
+      let color ;
+      if (mode==='dark-mode' ) {
+        color = 'black';      
+        }
+      else {
+        color = 'white';
+      }
+
+  --> else-if statement 
+      let age = 20;
+      if (age < 18 ) {
+        console.log('junior');      
+        }
+      else if (age > 60){
+        console.log('senior');
+      }
+      else {
+        console.log('middle');
+      }
+
+4. Switch statement:
+   --> const expr = 'papayas';
+       switch (expr)
+       {
+        case 'orange':
+        console.log('oragnes found');
+        break;
+
+        case 'papayas':
+        console.log('papayas found');
+        break;
+
+        case 'mangoes':
+        console.log('mangoes found');
+        break;
+
+        default :
+        console.log('nothing');
+       }
+
+       // break is important in switch as , without break it will execute every statement after one case is matched .
+
+
+
+5. prompt --> msg 
++ input from user 
+
+
+6. alert --> msg only
