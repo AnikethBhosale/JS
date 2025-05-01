@@ -1,0 +1,19 @@
+1. Loops in JS :
+  --> Loops are used to execute a pieceof code again and again.
+
+  1. for loop :
+    --> for (let i =1 ; i<=5;i++) {
+      console.log(i)
+    }
+
+
+  2. infinite loop :
+    --> A loop that never ends. 
+    --> Stoping condition always true
+
+  3. while loop :
+    --> while(condition){
+      // do some work
+    }
+
+    --> Usually we do the initialization before while and updation within while block
