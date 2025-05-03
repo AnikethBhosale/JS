@@ -30,8 +30,40 @@
   
 
 
-let  i = 1 ;
-while(i<=5){
-  console.log(i);
-  i++;
-}
+// let  i = 1 ;
+// while(i<=5){
+//   console.log(i);
+//   i++;
+// }
+
+
+// do-while loop
+// let i = 20;
+// do {
+//   console.log("Aniketh");
+//   i++;
+// }while(i<=20);
+
+//for-of loop
+// let str = "Aniketh";
+// let size = 0;
+// for(let i of str){
+//   size++;
+//   console.log("i :",i);
+// }
+
+// console.log('str size :',size)
+
+// for-in loop
+
+// let student = {
+//   name : "Aniketh",
+//   age : 21,
+//   cgpa: 8.12,
+//   isPass :true
+// };
+
+// for(let i in student){
+//   console.log('i :',i);
+//   console.log('student[i] :',student[i]);
+// }

@@ -17,3 +17,20 @@
     }
 
     --> Usually we do the initialization before while and updation within while block
+
+  4.do-while loop :
+    --> do{
+      //do some work
+    }while(condition);//executes at least once
+
+  5.for-of loop :
+    --> helps in iterating arrays and strings
+    for(let val of strVar){
+      //do some work
+    }
+
+  6.for-in loop :
+    --> used for iterating through objects and arrays
+    for(let key in objVar){
+      //do some work
+    }
