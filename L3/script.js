@@ -67,3 +67,34 @@
 //   console.log('i :',i);
 //   console.log('student[i] :',student[i]);
 // }
+
+
+
+// Practice Problems
+
+//Q.1 Print all even numbers from 0-100
+
+// for(let i=0 ; i <=100 ; i+=2){
+//   console.log(i);
+// }
+
+//Q.2 Create a game where you start with any random game number. Ask the user to keep guessing the game number until the user enters correct value.
+
+// let gameNum = 25;
+// let user_num ;25
+// user_num = prompt('Guess the number');
+// while(gameNum!=user_num){
+//   user_num = prompt('Guess again');
+// }
+
+// alert(`Congratulations!!! You entered right number which is: ${user_num}`);
+
+
+
+
+//Strings
+
+let str = "Aniketh";
+let str2 = 'Bhosale';
+
+console.log(str[0]);

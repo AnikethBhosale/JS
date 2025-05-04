@@ -34,3 +34,22 @@
     for(let key in objVar){
       //do some work
     }
+
+
+2. Strings in JS :
+--> String is a sequence of charecters used to represent text
+--> Strings have in-built properties and in-built fnctions(methods)
+
+  -->Properties
+    --> Every string has it's own internal variable which store some value about the string (eg:lenght)
+    -->We see that the string is bahaving like object (because str.length ,etc (.) to know values stored in internal variable)
+    --> Indices start from 0 (Index -> Singular)
+
+  1.Create a string :
+    --> let str = "Aniketh";
+    
+  2.String Length :
+    --> str.length ;
+    
+  3.String indices :
+    -->str[0],str[1],str[2]
