@@ -94,7 +94,37 @@
 
 //Strings
 
-let str = "Aniketh";
-let str2 = 'Bhosale';
+// let str = "Aniketh";
+// let str2 = 'Bhosale';
 
-console.log(str[0]);
+// console.log(str[0]); // O/P : A
+
+
+
+// let obj = {
+//   item:'pen',
+//   price:10
+// };
+// let output = `the cost of ${obj.item} is ${obj.price} rupees.`
+// console.log('the price of', obj.item,'is',obj.price,'rupees');
+//Template Literals 
+//Write inside back tick
+//let specialString = `This is a template literal`;
+// console.log(specialString);
+// console.log(output);
+
+
+// let str = 'hehehe';
+// console.log(str.replace('h','y')); // O/P: yehehe
+// console.log(str.replaceAll('h','y')); //O/P: yeyeye
+
+
+
+
+// Practice
+
+// let u_name = prompt('Enter name:');
+
+// userName = `@${u_name}${u_name.length}`
+
+// document.write(userName);

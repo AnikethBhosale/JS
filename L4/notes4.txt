@@ -1,0 +1,32 @@
+1. Arrays in JS :
+  --> Collection of items
+
+  --> Create Array:
+    --> let heroes = ['ironman' , 'hulk' , 'thor'];
+    --> let marks = [96 , 98 , 93];
+    --> let info = ['rahul' , '86' , 'delhi'];
+
+  --> Generally it is preffered to make arrays with same data type , but if required an array can have different data types .
+
+
+  1. Array indices (pural of index) :
+    --> arr[idx] for accessing element at index 'idx' of an array arr .
+
+  
+  2. Looping Over an Array :
+    --> let heroes = ['ironman' , 'hulk' , 'thor'];
+    1. Using each indices (not preffered , waste of time) 
+    2. Using Loops --> iterable (strings , objects , arrays)
+      --> for , while or do-while loop can be used . 
+      --> We need to know length of array when using loops .
+
+  
+  3. Array Method : (some make changes in array others make new arrays)
+    --> push() : add to end .
+    --> pop()  : delete from end and return .
+    --> toString() : converts array to string .
+    --> poncat() : joins multiple arrays and return result .
+    --> unshift() : add to start .
+    --> shift() : delete from start and return .
+    --> slice() : returns a piece of the array. (eg: slice(strIdx,endIdx) , endIdx is non-incluusive) -- No change to original array .
+    --> splice() : change original array (add, remove, replace) -- (eg: splice(strIdx,delCount,newEl1... ) )

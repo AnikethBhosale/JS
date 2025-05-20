@@ -7,7 +7,7 @@
     }
 
 
-  2. infinite loop :
+  2. infinite loop : 
     --> A loop that never ends. 
     --> Stoping condition always true
 
@@ -37,7 +37,7 @@
 
 
 2. Strings in JS :
---> String is a sequence of charecters used to represent text
+--> String is a sequence of characters used to represent text
 --> Strings have in-built properties and in-built fnctions(methods)
 
   -->Properties
@@ -53,3 +53,31 @@
     
   3.String indices :
     -->str[0],str[1],str[2]
+
+
+3. Template Literals in JS :
+--> A way to have embedded expressions in strings.
+  --> To create strings by doing substitution of placeholders
+  'string text ${expression} string text`
+
+--> It is also called string interpolation.
+
+
+4. Escape characters:
+**Note : If there is a string "Aniketh\nBhosale" --> though it has 16 characters , the length will be 15 as escape characters are considered as a single character.
+--> \n -> new line
+--> \t -> a tab
+
+
+5.String Method in JS:
+--> These are built-in functions to manipulate a string.
+--> let str = "  Text Text    ";
+  --> str.toUpperCase();
+  --> str.toLowerCase();
+  --> str.trim();//removes whitespaces --> extra spaces from beginning and end
+  -->str.slice(start,end?);//end is optional and non-inclusive
+  -->str1.concat(str2);
+  -->str.replace(searchVal, newVal);
+  -->str.charAt(idx);
+
+**Note: Strings are immutable
