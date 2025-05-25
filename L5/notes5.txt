@@ -1,0 +1,23 @@
+1. Funtions in JS :
+  --> Block of code that performs a specific task, can be involved whenever needed.
+
+  --> console.log() , toUpperCase() , .push() are also functions.
+  --> Parantheses "()" is used to invoke function. [usually input is in parantheses]
+  
+  1. Funtion Definition (What is the work --> eg: telling cook will have some responsibilities) :
+    --> function functionName(){
+      // do some work
+    }
+
+    --> function functionName( param1 , param2 , ...) {
+      // do some work
+    }
+
+
+  2. Function Call (For doing the work -->eg: telling the cook to cook something) :
+    --> functionName();
+
+
+  --> Functions reduce REDUNDANCY , in any code redundancy is not good.
+
+  --> Function parameters -> they are like local variables of function -> valid only inside function's block scope 
