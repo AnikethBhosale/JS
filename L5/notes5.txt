@@ -21,3 +21,20 @@
   --> Functions reduce REDUNDANCY , in any code redundancy is not good.
 
   --> Function parameters -> they are like local variables of function -> valid only inside function's block scope 
+
+  
+
+  3. Arrow Functions :
+    --> Compact way of writing function   // ( => ) is arrow function 
+
+    --> const functionName = (param1 , param2 , ...) => {
+      //do some work
+    }
+
+    --> Used widely in modern JS
+
+    --> Here , a variable acts as a function , if only functionName given in console then prints the function definition i.e., the parameters required and inner code ,  but if functionName(param1,param2,..) passed , then we get final O/P 
+
+    --> In the exampke code we can say " arrowSum " is a function variable ; A variable in which a function is stored .
+
+    
