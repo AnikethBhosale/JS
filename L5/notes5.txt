@@ -35,6 +35,81 @@
 
     --> Here , a variable acts as a function , if only functionName given in console then prints the function definition i.e., the parameters required and inner code ,  but if functionName(param1,param2,..) passed , then we get final O/P 
 
-    --> In the exampke code we can say " arrowSum " is a function variable ; A variable in which a function is stored .
+    --> In the example code we can say " arrowSum " is a function variable ; A variable in which a function is stored .
 
     
+  4. forEach Loop in Arrays : // Can only be used for Arrays
+    --> It is a method. 
+
+    //** 
+    "abc".toUpperCase() is a method bc we need a string to use toUpperCase , when a function is bound to an object we say it is a method. 
+    **//
+
+    --> Syntax :
+      --> arr.forEach(callBackFunction)
+
+      /*in JS a function can be passed as a parameter and it can return a value */
+
+    --> callBackFunction : Here , it is a function to execute for each element in array.
+
+    --> **A callback is a function passed as an argument to another function.
+
+    --> eg:
+      arr.forEach((val) => {
+        console.log(val);
+      })
+
+  //** Interview Question - What are higher order functions/methods ??
+
+       Answer - Those functions/methods that take other functions as parameters (have callBackFunction) or *return a function* are called higher order functions/methods .
+       eg: arr.forEach(callBackFunction);
+
+  **//
+
+  5. Map :
+    --> Creates a new array with the results of some operation. The value it's callback returns are used to form new array.
+
+    --> Syntax :
+      -> arr.map(callbackFnx( value, index, array ))
+
+    --> eg :
+      -> let newArray = arr.map((val)=>{
+        return val*2;
+      })
+
+
+
+  6. Filter :
+    --> Creates a new array of elements that give true for a condition/filter.
+
+    --> eg :
+      -> all even elements 
+
+      -> let newArray = arr.filter( (val) => {
+        return val%2===0;
+      });
+
+
+  7. Reduce :
+    --> Performs some ooperations and reduces the array to a single value. It returns that single value.
+
+    --> eg : // some of all elements in arr
+      -> const arr1 = [1, 2, 3, 4]
+      -> const initialVal = 0
+      -> const sumWithInitial = arr1.reduce(
+        (accumulator, currentVal) => accumulator + currentVal , initialVal
+      );
+      ->console.log(initialVal);   // O/P : 10
+
+      // accumulator is also known as result 
+      // currentVal  is also know as val or curr 
+      
+      
+      // if return res+curr ,they start with first two values --> 
+      //if arr = [1, 2, 3, 4]
+      // then 1st -> res = 1  and prev = 2 --> add 1&2 and the sum is stored within res itself , so next
+      // res = 3 and curr = 3 --> res = 6 and curr = 4 (last element is 4)
+      // so now we return value 10 
+
+
+      -> example use case include summation , maxVal , minVAl , avg , etc .

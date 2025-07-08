@@ -1,0 +1,28 @@
+1. DOM (Document Object Model) PART 1 :
+  
+  1. Three Musketeers of Web Dev :
+    --> HTML (Structure)
+    --> CSS  (Style)
+    --> JS   (Logic)
+
+
+  2. Starter Code :
+    --> <style> tag connects HTML and CSS
+    --> <script> tag connects HTML and JS 
+
+    --> Uses :
+      --> Readability
+      --> Modularity
+      --> Browser caching (faster page loading)
+
+
+  3. Window Object :
+    --> The window object represents an open window in a browser. It is browser's object (not JavaScript's) & is automatically created by browser.
+
+    --> It is a global object with lot's of properties and methods. 
+
+    --> Automatically used by JS and it's code , eg: alert("hello!!!) == window.alert("hello!!!)
+
+
+    4. What is DOM ? :
+      --> 25:10
