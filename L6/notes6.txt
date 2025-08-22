@@ -24,5 +24,52 @@
     --> Automatically used by JS and it's code , eg: alert("hello!!!) == window.alert("hello!!!)
 
 
-    4. What is DOM ? :
-      --> 25:10
+  4. What is DOM ? :
+    --> When a web page is loaded , the browser creates a Document Object Model (DOM) of the page.
+
+    --> See FIG1 - DOM 
+
+    --> All the HTML code that is attached to JS , can be access from woth JS.
+
+    --> All the HTML code is stored in JS as a object named Document.
+
+    --> In Window object , Document object (a sub-object) is created.
+
+    --> Can be viewed from console , window-> document ; docment-> all (for tags used in html)
+
+    --> Can also use window.document in console to print entire html code.
+
+    --> For mathod/properties of document :
+      -> console.dir(window.docment)
+
+    --> For code we can also use :
+      -> console.log(window.docment) 
+
+    --> DOM :
+      ->Document : Name of Object
+      ->Object   : Because all are objects
+      ->Model    : We made a model of HTML code (Tree like Structure starting from window ; see FIG1 ; every component window,document,html,etc are called "nodes" )
+
+    --> As window is global object , we can use docment directly.
+
+    --> All this information that we get from DOM is useful when you need to dynamically change properties of HTML.
+      -> eg : Change background color :
+        -> document.body.style.background = "green"; will change background color in browser at runtime without changing HTML at the server .
+
+  NOTE : If you load JS in HTML before <body> tag then DOM elements are not accessible . Thus, always write <script> tag just before ending the </body> tag .
+
+
+  5. DOM Manipulation :
+    1. Selecting with id :
+      --> document.getElementById("myid");  // single -> element
+
+      --> Id in HTML should be unique , if multiple tags have same ID , then "getElementById" will select first occurance of ID   
+
+    2. Selecting with Class (selects every tag with same class) :
+      --> document.getElementsByClassName("myClass");  // multiple -> elements 
+
+    3. Selecting with tag :
+      -> document.getElementsByTagName("p"); // multiple -> elements
+
+    4. Query Selector : 
+      --> 49:00
